@@ -1,6 +1,8 @@
 # yolo-selector [![Build Status](https://travis-ci.org/javver/yolo-selector.svg?branch=master)](https://travis-ci.org/javver/yolo-selector)
 
-> Select obsolete HTML elements
+> Select obsolete HTML elements using jQuery.
+
+The original list of elements comes from the [Mozilla Documentation](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Obsolete_and_deprecated_elements).
 
 
 ## Install
@@ -13,32 +15,24 @@ $ npm install yolo-selector
 ## Usage
 
 ```js
-const yoloSelector = require('yolo-selector');
+const jQuery = require('jquery');
+const instalYolo = require('yolo-selector');
 
-yoloSelector('unicorns');
-//=> 'unicorns & rainbows'
+instalYolo(jQuery);
+
+$(':yolo').css({ border: '5px solid red' });
 ```
 
 
 ## API
 
-### yoloSelector(input, [options])
+### installYolo(jQuery)
 
-#### input
+#### jQuery
 
-Type: `string`
+Type: `object`
 
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
-
+The jQuery object.
 
 ## License
 
