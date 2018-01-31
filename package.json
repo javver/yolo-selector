@@ -1,0 +1,36 @@
+{
+	"name": "yolo-selector",
+	"version": "1.0.0",
+	"description": "Select obsolete HTML elements",
+	"license": "MIT",
+	"repository": "javver/yolo-selector",
+	"author": {
+		"name": "Javier Cardona",
+		"email": "javier.cardona@banregiolabs.com",
+		"url": "http://javver.com"
+	},
+	"engines": {
+		"node": ">=4"
+	},
+	"scripts": {
+		"test": "xo && ava",
+		"watch": "nodemon --exec \"npm test\""
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		""
+	],
+	"dependencies": {},
+	"devDependencies": {
+		"ava": "^0.20.0",
+		"jquery": "^3.3.1",
+		"jsdom": "^11.6.2",
+		"nodemon": "^1.14.11",
+		"xo": "^0.18.2"
+	},
+	"peerDependencies": {
+		"jquery": ">2.0.0"
+	}
+}
