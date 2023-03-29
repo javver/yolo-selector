@@ -1,4 +1,4 @@
-# yolo-selector [![Build Status](https://travis-ci.org/javver/yolo-selector.svg?branch=master)](https://travis-ci.org/javver/yolo-selector)
+# yolo-selector [![Build Status](https://app.travis-ci.com/javver/yolo-selector.svg?branch=master)](https://app.travis-ci.com/github/javver/yolo-selector)
 
 > Select obsolete HTML elements using jQuery.
 
